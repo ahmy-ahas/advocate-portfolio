@@ -1,0 +1,14 @@
+@"
+node_modules/
+**/node_modules/
+.env
+**/.env
+.env.*
+!.env.example
+dist/
+build/
+coverage/
+uploads/*
+!uploads/.gitkeep
+**/uploads/*
+"@ | Set-Content .gitignore
